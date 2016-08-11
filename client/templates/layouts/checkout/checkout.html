@@ -1,0 +1,46 @@
+<template name="services">
+  <div id="services">
+      <div class="row">
+        <div class="container-fluid">
+         
+          {{# unless processing}}
+          <h2>Service Price:<span>{{servicePrice}}</span></h2>
+              <a href="#" data-service="full-torso-apparition" class="btn btn-primary btn-lg active">Get Service Now</a>
+             <div class="text-center"> 
+                
+           
+            
+               <h2>What to expect?</h2>
+              
+              <img src="/image/cleaningmanmachine.jpg" class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image"/>
+               
+             
+               <p class="lead">
+               We will make sure everything in your home is clean and taken care off.
+                </p>
+
+                 <p class="lead">
+                You'll then recieve a confirmation and or notification that service has been completed. Done!
+                </p>
+
+               <h2>Level of effort</h2>
+               
+                <p class="lead">
+                 Anything over the scheduled service time minutes or less is billed at the rate of {{servicePrice}}. <br/> Anything over will be billed at 2.00/min
+                </p>
+               
+               <a href="#" data-service="full-torso-apparition" class="btn btn-primary btn-lg active">Get Service Now</a>
+            </div>
+
+           
+                        
+            
+
+           
+          {{else}}
+            <p class="alert alert-warning"><i class="fa fa-refresh fa-spin"></i> Processing payment...</p>
+          {{/unless}}
+        </div>
+      </div>
+  </div>
+</template>

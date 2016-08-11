@@ -1,0 +1,10 @@
+{
+ 
+ "public": {
+    "stripe": "PUBLIC KEY HERE"
+  },
+  
+  "private": {
+    "stripe": "PRIVATE KEY HERE"
+   }
+}

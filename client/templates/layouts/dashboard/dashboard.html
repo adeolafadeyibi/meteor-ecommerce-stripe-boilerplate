@@ -1,0 +1,35 @@
+<template name="dashboard"> 
+   <div class="container-fluid">
+      <div class="row">
+     
+        <div class="main">
+          <h1 class="page-header">Dashboard</h1>
+
+          {{#each scheduledTasks}}
+            <div class="serviceContainer">
+              <dl>
+               <dt>Next Scheduled Date</dt>
+                <dd>{{formPickupDate}}</dd>
+                <dt>Service Type</dt>
+                <dd>{{formType}}</dd>
+                
+                 <dt>Earliest time trash will be put out</dt>
+                <dd>After 6pm</dd>
+                 <dt>Recylcing?</dt>
+                <dd>{{formRecylcing}}</dd>
+                 <dt>Service Address</dt>
+                <dd>{{formStreet}}</dd>
+                 <dt>Zip Code</dt>
+                <dd>{{formZip}}</dd>
+                 <dt>Service Cost</dt>
+                <dd>{{pricePaid}}</dd>
+              </dl>
+            </div>
+          {{/each}}
+
+
+        </div>
+      </div>
+    </div>
+</template>
+

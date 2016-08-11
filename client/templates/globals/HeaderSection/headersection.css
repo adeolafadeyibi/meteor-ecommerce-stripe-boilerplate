@@ -1,0 +1,13 @@
+header{
+    margin-top: 90px;
+}
+
+.smallLogo{
+	width: 20px;
+    height: 20px;
+    display: block;
+    z-index: 10000;
+    position: absolute;
+    right: 154px;
+    top: 0;
+}

@@ -1,0 +1,11 @@
+@media (max-width: 400px){
+
+    #services h2{
+        text-align: center;
+    }
+
+    #services h2 + a{
+        margin-left: 33%;
+    }
+
+}

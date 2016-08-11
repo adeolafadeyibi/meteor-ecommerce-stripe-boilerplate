@@ -1,0 +1,16 @@
+
+<head>
+    <meta name="viewport" content="user-scalable=no, width=device-width, maximum-scale=1, initial-scale=1, minimum-scale=1">
+    <script src='https://api.tiles.mapbox.com/mapbox.js/v2.2.4/mapbox.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox.js/v2.2.4/mapbox.css' rel='stylesheet' />
+</head>
+
+<template name="layout1">
+ {{> Template.dynamic template=top}}
+  
+      {{> Template.dynamic template=mainout}}
+ 
+      {{> Template.dynamic template=main}}   
+
+  {{> Template.dynamic template=footer}}
+</template>

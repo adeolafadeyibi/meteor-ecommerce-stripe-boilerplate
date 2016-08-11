@@ -1,0 +1,17 @@
+.bookNow{
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 15px;
+
+
+}
+
+.bookNow a{
+    
+}
+
+@media (max-width: 440px){
+    .bookNow{
+        margin-top: -279px;
+    }
+}

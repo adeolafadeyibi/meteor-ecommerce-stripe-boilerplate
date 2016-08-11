@@ -1,0 +1,43 @@
+# Meteor packages used by this project, one per line.
+# Check this file (and the other files in this directory) into your repository.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+meteor-base             # Packages every Meteor app needs to have
+mobile-experience       # Packages for a great mobile UX
+mongo                   # The database Meteor supports right now
+blaze-html-templates    # Compile .html files into Meteor Blaze views
+reactive-var            # Reactive variable for tracker
+jquery                  # Helpful client-side library
+tracker                 # Meteor's client-side reactive programming library
+
+standard-minifier-css   # CSS minifier run for production mode
+standard-minifier-js    # JS minifier run for production mode
+es5-shim                # ECMAScript 5 compatibility for older browsers.
+ecmascript              # Enable ECMAScript2015+ syntax in app code
+
+session
+accounts-password       #for password setup and recovery
+accounts-ui             #for UI of login
+kadira:flow-router      #router choice
+kadira:blaze-layout     #a layout manager for flow router
+twbs:bootstrap          #twitter bootstrap
+fourseven:scss
+mrgalaxy:stripe         #for stripe checkout
+check                   #a lightweight package for argument checking and general pattern matching
+mizzao:jquery-ui        #jquery ui
+email
+pauloborges:mapbox
+simple:json-routes
+insecure
+themeteorchef:jquery-validation
+
+
+#remove mapbox
+#reactive-var
+#remove scss
+#remove jsonroutes
+#remove insecure
+#remove validation
+#remove email
